@@ -1,0 +1,19 @@
+{
+  "name": "learningexpressstepbystep",
+  "version": "1.0.0",
+  "description": "Learning Expressjs for RESTful API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutiemeow/LearningExpressjsStepByStep.git"
+  },
+  "author": "phungdaihiep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cutiemeow/LearningExpressjsStepByStep/issues"
+  },
+  "homepage": "https://github.com/cutiemeow/LearningExpressjsStepByStep#readme"
+}
