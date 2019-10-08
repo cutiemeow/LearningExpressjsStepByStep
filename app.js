@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const mongoose = require('mongoose');
 // connect to database
 mongoose.connect('mongodb://phungdaihiep:thanghiep001@expressjsstepbystep-shard-00-00-imj2g.mongodb.net:27017,expressjsstepbystep-shard-00-01-imj2g.mongodb.net:27017,expressjsstepbystep-shard-00-02-imj2g.mongodb.net:27017/expressjsstepbystep?ssl=true&replicaSet=ExpressJsStepByStep-shard-0&authSource=admin&retryWrites=true&w=majority')
-
+mongoose.Promise = global.Promise;
 //APP CONFIGURATION 
 //use body-parser so we can grab information from POST requests
 app.use(bodyParser.urlencoded({ extended: true }));
